@@ -42,7 +42,7 @@ export default class Apresentacao extends Component {
         return (
             <View style={style.container}>
                 <View style={[style.innerContainer, { alignItems: 'center', paddingTop: 60, height: '30%' }]}>
-                    <Text style={style.titulo}>Real Solids 2</Text>
+                    <Text style={style.titulo}>Real Solids II</Text>
                 </View>
 
                 <View style={[style.innerContainer, { height: '70%' }]}>
