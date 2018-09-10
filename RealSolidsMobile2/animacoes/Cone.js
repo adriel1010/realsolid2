@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
 import Video from 'react-native-video';
-import cubo from '../videos/cubo.mp4';
+import cubo from '../videos/paralelepipedo.mp4';
 
 export default class Cubo extends Component {
     render() {
