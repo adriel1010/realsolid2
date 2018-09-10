@@ -21,8 +21,8 @@ export default class Inicio extends Component {
                 
                 { /* Adicionar icone de informações */}
 
-                <View style={[style.conteudo, { marginTop: 60 }] }>
-                    <Text style={style.titulo}>Real Solids 2</Text>
+                <View style={[style.conteudo, { marginTop: 80 }] }>
+                    <Text style={style.titulo}>Real Solids II</Text>
                 </View>
 
                 <View style={[style.conteudo, { justifyContent: 'center' }]}>

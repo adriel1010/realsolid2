@@ -15,7 +15,7 @@ export default class Menu extends Component {
         return (
             <View style={style.container}>
                 <View style={[style.titleContainer, { alignItems: 'center', paddingTop: 60 }]}>
-                    <Text style={style.titulo}>Real Solids 2</Text>
+                    <Text style={style.titulo}>Real Solids II</Text>
                 </View>
                 { /*Separando os botões em duas colunas (se precisar fazer uma terceira */}
 
@@ -48,7 +48,7 @@ export default class Menu extends Component {
                         <Botao 
                             style={{ backgroundColor: 'blue' }} 
                             text='Cubo'
-                              onPress={() => Actions.paralelepipedo()}    
+                              onPress={() => Actions.cubo()}    
                         />
                     </View>
                 </View>

@@ -14,6 +14,7 @@ import ExerciciosPracaRibeira from '../exercicios/ExerciciosPracaRibeira';
 import ExerciciosOperaArame from '../exercicios/ExerciciosOperaArame';
 import ExerciciosCatedral from '../exercicios/ExerciciosCatedral';
 import Paralelepipedo from '../animacoes/Paralelepipedo';
+import Cubo from '../animacoes/Cubo';
 import Cone from '../animacoes/Cone';
 import MaspContorno from '../exercicio_contorno/MaspContorno';
 import CatedralContorno from '../exercicio_contorno/CatedralContorno';
@@ -85,6 +86,11 @@ export default class Nav extends Component {
                     <Scene 
                         key='paralelepipedo' 
                         component={Paralelepipedo} 
+                        hideNavBar 
+                    />
+                      <Scene 
+                        key='cubo' 
+                        component={Cubo} 
                         hideNavBar 
                     />
                     <Scene 
