@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Dimensions  } from 'react-native';
 import Video from 'react-native-video';
 
-export default class Paralelepipedo extends Component {
+export default class Cubo extends Component {
     render() {
         return (
             <Video 
-                source={{uri : 'cubo', type: 'mp4' }}
+                source={{uri : 'paralelepipedo', type: 'mp4' }}
                 style={style.backgroundVideo}
             />
         );

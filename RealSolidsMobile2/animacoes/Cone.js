@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View, Dimensions  } from 'react-native';
 import Video from 'react-native-video';
-import cubo from '../videos/paralelepipedo.mp4';
 
-export default class Cubo extends Component {
+export default class Cone extends Component {
     render() {
         return (
             <Video 
-                source={cubo}
+                source={{uri : 'cone', type: 'mp4' }}
                 style={style.backgroundVideo}
             />
         );
@@ -21,5 +20,7 @@ const style = StyleSheet.create({
         left: 0,
         right: 0,
         bottom: 0,
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height
     },
 });

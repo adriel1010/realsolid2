@@ -16,6 +16,7 @@ import ExerciciosCatedral from '../exercicios/ExerciciosCatedral';
 import Paralelepipedo from '../animacoes/Paralelepipedo';
 import Cubo from '../animacoes/Cubo';
 import Cone from '../animacoes/Cone';
+import Cilindro from '../animacoes/Cilindro';
 import MaspContorno from '../exercicio_contorno/MaspContorno';
 import CatedralContorno from '../exercicio_contorno/CatedralContorno';
 import OperaArameContorno from '../exercicio_contorno/OperaArameContorno';
@@ -96,6 +97,11 @@ export default class Nav extends Component {
                     <Scene 
                         key='cone' 
                         component={Cone} 
+                        hideNavBar 
+                    />
+                    <Scene 
+                        key='cilindro' 
+                        component={Cilindro} 
                         hideNavBar 
                     />
                       <Scene 

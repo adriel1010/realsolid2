@@ -31,8 +31,8 @@ export default class Menu extends Component {
                         
                         <Botao
                             style={{ backgroundColor: 'green' }}
-                            text='Esfera'
-                        onPress={() => Actions.paralelepipedo()}    
+                            text='Cilindro'
+                        onPress={() => Actions.cilindro()}    
                         />
                         { /* adicionar outros botões mais botões */}
                     </View>
@@ -41,8 +41,8 @@ export default class Menu extends Component {
                     <View style={style.containerButtons}>
                         <Botao 
                             style={{ backgroundColor: 'purple' }} 
-                            text='Pirâmide'
-                             onPress={() => Actions.paralelepipedo()}    
+                            text='Cone'
+                             onPress={() => Actions.cone()}    
                         />
 
                         <Botao 
